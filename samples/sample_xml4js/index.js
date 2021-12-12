@@ -11,6 +11,6 @@ validator.validateXML(xmlStream, 'resources/sample2.xsd', function(err, result) 
     console.log("Error: xml is not valid!" );    
     
   }
-  console.log("xml for validation against schema  is "+result.valid );
+  console.log(" xml for validation against schema  is "+result.valid );
   
 });
