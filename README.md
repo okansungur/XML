@@ -4,27 +4,34 @@
 
 XML'in en önemli amaçlarından biri paylaşılan verilerin standartlaştırılmasını sağlamaktır. Verilerin XML dosyası halinde dağıtılması, standartlara uymuş olmak anlamına gelmiyor. Asıl gereken şey, XML biçimindeki veri kümesinde bulunan elemanların özellik ve dizilişlerinin standartlaştırılmasıdır. 
 XML
-•	XML deklarasyonuyla başlamalıdır.
-•	Benzersiz bir kök elemanına sahip olmalıdır.
-•	Başlangıç ve bitiş tagları uyuşmalıdır.
-•	XML tagları küçük-büyük harfe duyarlıdır.
-•	Tüm elemanlar kapatılmalıdır.
-•	Elemanlar düzgün şekilde kümelenmelidir 
-•	Tüm  özellikler tırnak içerisine alınmalıdır 
+
+- XML deklarasyonuyla başlamalıdır.
+- Benzersiz bir kök elemanına sahip olmalıdır.
+- Başlangıç ve bitiş tagları uyuşmalıdır.
+- XML tagları küçük-büyük harfe duyarlıdır.
+- Tüm elemanlar kapatılmalıdır.
+- Elemanlar düzgün şekilde kümelenmelidir 
+- Tüm  özellikler tırnak içerisine alınmalıdır 
 
 <?xml version="1.0" encoding="ISO-8859-9"?>
+
+
 Xml elemanlarının hepsinin kapanış tagı vardır.Ancak yukarıdaki ifadenin bir eleman olmadığını unutmayalım.
 
 Elemanlar düzgün şekilde kümelenmelidirler 
+
 Tüm xml dokümanlarının root elemanı olmalıdır
+
 Attribute değerleri çift veya tek tırnak içerisinde gösterilmelidir
+
 <!--  Yorum  Satırı-->
 -XML elemanları basit isimlendirme kurallarına sahiptir.
-•	İsimler harf,sayı ya da diğer karakterleri içerebilir. 
-•	İsimler bir harf veya _ (underscore) karakteri ile başlamalıdır. 
-•	İsimler "xml"(ya da XML veya Xml) şeklinde başlamamalıdır 
-•	İsimler boşluk içermemelidir.
--XML elemanları esnektir farklı elemanlar eklenebilir ve bunlar belge içeriğini bozmaz.
+- İsimler harf,sayı ya da diğer karakterleri içerebilir. 
+- İsimler bir harf veya _ (underscore) karakteri ile başlamalıdır. 
+- İsimler "xml"(ya da XML veya Xml) şeklinde başlamamalıdır 
+- İsimler boşluk içermemelidir.
+- XML elemanları esnektir farklı elemanlar eklenebilir ve bunlar belge içeriğini bozmaz.
+- 
 Örnek:
 
 ```
